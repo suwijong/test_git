@@ -135,7 +135,6 @@ import {sendCode, loginWithUsername, loginWithPhone} from '../../api'
              //手机号登录失败
              if (result.code === 1) {
                alert('验证码错误')
-               //加一个字段
                this.code = ''
              }
            }
