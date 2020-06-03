@@ -6,7 +6,7 @@ import Profile from '../pages/Profile/Profile.vue'
 import Login from '../pages/Login/Login.vue'
 import Shop from '../pages/Shop/Shop.vue'
 
-
+//二级路由
 import Goods from '../pages/Shop/Goods/Goods.vue'
 import Rating from '../pages/Shop/Rating/Rating.vue'
 import Info from '../pages/Shop/Info/Info.vue'
