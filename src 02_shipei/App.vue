@@ -17,7 +17,6 @@ import FooterGuide from './components/FooterGuide/FooterGuide'
 
     async mounted(){
       let result = await this.$API.autoLogin()
-
       //存入vuex中
       this.$store.commit(SAVE_USER,result.data)
     }
