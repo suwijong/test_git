@@ -21,16 +21,16 @@
 </template>
 
 <script type="text/ecmascript-6">
-  export default {
-      methods:{
-          goPath (path){
-              if (path !== this.$route.path) {
-                 this.$router.push(path) 
-              }
-             
-          }
-      }
-  }
+    export default {
+        methods:{
+            goPath (path){
+                if (path !== this.$route.path) {
+                    this.$router.push(path) 
+                }
+                
+            }
+        }
+    }
 </script>
 
 <style lang="stylus" rel="stylesheet/stylus">
