@@ -26,8 +26,7 @@
             goPath (path){
                 if (path !== this.$route.path) {
                     this.$router.push(path) 
-                }
-                
+                } 
             }
         }
     }
