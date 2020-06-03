@@ -146,7 +146,6 @@ import {MessageBox} from 'mint-ui'
 @import '../../common/stylus/mixins.styl'
 .profile //我的
     width 100%
-
     .profile-number
       margin-top 45.5px
       .profile-link
