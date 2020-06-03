@@ -92,10 +92,10 @@ import {sendCode, loginWithUsername, loginWithPhone} from '../../api'
       //开始倒计时
       let intervalId = setInterval(()=>{
         this.countDownTime--
-        // if (this.countDownTime === 0) {
-        //   clearInterval(intervalId)
-        // }
-         this.countDownTime === 0 && clearInterval(intervalId)
+        if (this.countDownTime === 0) {
+          clearInterval(intervalId)
+        }
+        //  this.countDownTime === 0 && clearInterval(intervalId)
         },1000) 
 
         //发送请求从后台获取短信验证码
