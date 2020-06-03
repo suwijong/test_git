@@ -8,6 +8,7 @@ import routes from './routes'
 Vue.use(VueRouter)
 
 let router = new VueRouter({
+    //注册路由
     routes
 })
 
