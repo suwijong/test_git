@@ -20,7 +20,7 @@ instance.interceptors.request.use(config =>{
     //json => url-encodeing
     config.data = qs.stringify(config.data) //赋值操作
 
-    //3.   携带token  
+    //3.携带token  
        //(1)从localStorage中获取token
      
     let token = localStorage.getItem('token_key') 
