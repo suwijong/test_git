@@ -184,7 +184,7 @@
   //       while(target.length > size){
   //         result.push(target.splice(0, size))
   //       }
-        // !!target.length && result.push(target)
+  //       !!target.length && result.push(target)
   //       return result
   //     }
   //   },
