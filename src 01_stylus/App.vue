@@ -4,6 +4,7 @@
      <button class="btn01">test01</button>
      <button class="btn02">test02</button>
      <p>然而世事千帆而过 路的尽头终归是温柔和月光</p>
+     <p>乱风错错卷卷云散散八千里</p>
      <button class="btn03">混合的</button>
      <ul>
        <li @click = "handleClick(item)" :class="{active:navIndex === item}" v-for="item in 10" :key="item">{{item}}</li>
