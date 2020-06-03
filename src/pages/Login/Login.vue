@@ -149,8 +149,7 @@ import {sendCode, loginWithUsername, loginWithPhone} from '../../api'
             }
         }else{
          alert('前端验证失败')
-        }
-        
+        } 
       }
      },
 
