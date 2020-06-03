@@ -23,7 +23,6 @@
              this.$store.dispatch('changeFoodCount',{isAdd,food:this.food}) 
           }
       }
-
   }
 </script>
 
